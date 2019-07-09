@@ -17,3 +17,13 @@ describe('buffering', () => {
   });
 });
 
+describe('buffsmile', () => {
+  it('smiling buff', () => {
+    const smile = Buffer.from('[0xF0, 0x9F, 0X98, 0X83]');
+
+    
+    expect(smile.toString()).toEqual('smile emoji');
+
+    
+  });
+});
